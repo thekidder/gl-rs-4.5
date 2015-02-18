@@ -1,11 +1,11 @@
 [package]
-name = "gl-4-5"
+name = "gl45"
 version = "0.0.1"
 authors = ["Adam Kidder <thekidder@gmail.com>"]
 build = "build.rs"
 
 [lib]
-name = "gl-4-5"
+name = "gl45"
 
 [build-dependencies]
 gl_generator = "*"
