@@ -1,5 +1,5 @@
 [package]
-name = "gl-rs-4.5"
+name = "gl-4-5"
 version = "0.0.1"
 authors = ["Adam Kidder <thekidder@gmail.com>"]
 build = "build.rs"
