@@ -1,6 +1,6 @@
 #![feature(env)]
-#![feature(io)]
-#![feature(path)]
+#![feature(old_io)]
+#![feature(old_path)]
 
 extern crate gl_generator;    // <-- this is your build dependency
 extern crate khronos_api;    // included by gl_generator
