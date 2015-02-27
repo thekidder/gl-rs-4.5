@@ -16,6 +16,7 @@ fn main() {
     gl_generator::generate_bindings(
         gl_generator::GlobalGenerator,
         gl_generator::registry::Ns::Gl,
+        gl_generator::Fallbacks::All,
         khronos_api::GL_XML,
         vec![],
         "4.5", "core", &mut file).unwrap();
